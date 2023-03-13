@@ -4,36 +4,38 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+
     <TextView
         android:id="@+id/itNombre"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:layout_weight="1"
-        />
+        android:text="TextView" />
 
     <Button
         android:id="@+id/botonRes"
-        android:layout_width="5dp"
+        android:layout_width="10dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:maxWidth="5dp"
         android:text="-" />
 
-    <TextView
-        android:id="@+id/idCantidad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1"
-        android:textAlignment="center"
-        android:layout_weight="1"/>
-    <Button
-        android:id="@+id/botonSum"
-        android:layout_width="10dp"
-        android:maxWidth="10dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        <TextView
+            android:id="@+id/idCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:textAlignment="center" />
 
-        android:text="+" />
+        <Button
+            android:id="@+id/botonSum"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxWidth="10dp"
+
+            android:text="+" />
+
 
 </LinearLayout>
